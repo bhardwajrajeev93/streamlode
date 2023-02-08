@@ -1,0 +1,80 @@
+.container {
+  width: 100%;
+  max-width: 100%;
+  padding-left: 105px;
+  padding-right: 105px;
+}
+
+.navigation-outer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body *,:before,:after{
+  box-sizing: border-box;
+}
+.navigation-wrapper nav ul li a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #232323;
+  padding: 0px;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+}
+
+.navigation-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navigation-wrapper nav {}
+
+.navigation-wrapper ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navigation-wrapper nav ul li {
+  margin-right: 60px;
+}
+
+a {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.cta {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.cta.cta-yellow {
+  background-color: #F7941E;
+  border-color: #F7941E;
+}
+.cta.cta-yellow:hover {
+  background-color: #2455A6;
+  color: #fff;
+  border-color: #2455A6;
+}
+header .site-logo {
+  max-width: 260px;
+}
+header {
+  padding: 20px 0px;
+}
